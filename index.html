@@ -66,17 +66,19 @@
 
                 </div>
                 <div class="header-input__form">
-                    <select name="categories" id="" class="header-input__select">
-                        <option value="0">All Categories</option>
-                        <option value="1">Bakery</option>
-                        <option value="2">Fruit and vegetable</option>
-                        <option value="3">Meat and fish</option>
-                        <option value="4">Drinks</option>
-                        <option value="5">Kitchen</option>
-                        <option value="6">Special nutrition</option>
-                        <option value="7">Baby</option>
-                        <option value="8">Pharmacy</option>
-                    </select>
+                    <label for="" class="label">
+                        <select name="categories" id="categories" class="header-input__select">
+                            <option value="0">All Categories</option>
+                            <option value="1">Bakery</option>
+                            <option value="2">Fruit and vegetable</option>
+                            <option value="3">Meat and fish</option>
+                            <option value="4">Drinks</option>
+                            <option value="5">Kitchen</option>
+                            <option value="6">Special nutrition</option>
+                            <option value="7">Baby</option>
+                            <option value="8">Pharmacy</option>
+                        </select>
+                    </label>
                     <div class="header-input__vl"></div>
                     <input type="text" placeholder="Search Products, categories ..." class="header-input__text">
                     <button class="header-input__search">
@@ -91,72 +93,106 @@
                     <img src="./assets/images/header-cart.svg " alt="#" class="header-input__cart">
                 </div>
             </div>
-            <div class="header-nav ">
-                <nav>
-                    <ul>
-                        <li>
-                            <a href=" ">Bakery</a>
-                        </li>
-                        <li>
-                            <a href=" ">Fruit and vegetable</a>
-                        </li>
-                        <li>
-                            <a href=" ">Meat and fish</a>
-                        </li>
-                        <li>
-                            <a href=" ">Drinks</a>
-                        </li>
-                        <li>
-                            <a href=" ">Kitchen</a>
-                        </li>
-                        <li>
-                            <a href=" ">Special nutrition</a>
-                        </li>
-                        <li>
-                            <a href=" ">Baby</a>
-                        </li>
-                        <li>
-                            <a href=" ">Pharmacy</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-
     </header>
 
-    <section class="categories ">
-        <div class="container ">
-            <div class="categories-menu list-component ">
-                <h2>Category menu</h2>
-                <ul>
-                    <li>
-                        <a href=" ">Bakery</a>
-                    </li>
-                    <li>
-                        <a href=" ">Fruit and vegetable</a>
-                    </li>
-                    <li>
-                        <a href=" ">Meat and fish</a>
-                    </li>
-                    <li>
-                        <a href=" ">Drinks</a>
-                    </li>
-                    <li>
-                        <a href=" ">Kitchen</a>
-                    </li>
-                </ul>
-                <button>More categories</button>
-            </div>
-            <div class="categories-banner ">
-                <p>Banner subfocus</p>
-                <h2>Space for heading</h2>
-                <button>Read recipes</button>
-            </div>
-            <div class="categories-banner ">
-                <p>Banner subfocus</p>
-                <h2>Space for heading</h2>
-                <button>Read recipes</button>
+    <section class="nav">
+        <div class="container">
+            <ul class="nav__list">
+                <li>
+                    <label for="bakery" class="label">
+                        <select name="bakery" id="bakery">
+                            <option value="0">Bakery</option>
+                        </select>
+                    </label>
+                </li>
+                <li>
+                    <label for="fruitAndVegetable" class="label">
+                        <select name="fruitAndVegetable" id="fruitAndVegetable">
+                            <option value="0">Fruit and vegetable</option>
+                        </select>
+                    </label>
+                </li>
+                <li>
+                    <label for="meatAndFish" class="label">
+                        <select name="meatAndFish" id="meatAndFish">
+                            <option value="0">Meat and fish</option>
+                        </select>
+                    </label>
+                </li>
+                <li>
+                    <label for="drinks" class="label">
+                        <select name="drinks" id="drinks">
+                            <option value="0">Drinks</option>
+                        </select>
+                    </label>
+                </li>
+                <li>
+                    <label for="kitchen" class="label">
+                        <select name="kitchen" id="kitchen">
+                            <option value="0">Kitchen</option>
+                        </select>
+                    </label>
+                </li>
+                <li>
+                    <label for="specialNutrition" class="label">
+                        <select name="specialNutrition" id="specialNutrition">
+                            <option value="0">Special nutrition</option>
+                        </select>
+                    </label>
+                </li>
+                <li>
+                    <label for="baby" class="label">
+                        <select name="baby" id="baby">
+                            <option value="0">Baby</option>
+                            </select>
+                    </label>
+                </li>
+                <li>
+                    <label for="pharmacy" class="label">
+                        <select name="pharmacy" id="pharmacy">
+                            <option value="0">Pharmacy</option>
+                        </select>
+                    </label>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </section>
+
+    <section class="categories">
+        <div class="container">
+            <div class="categories-lists">
+                <div class="categories-lists__menu">
+                    <h2>Category menu</h2>
+                    <ul class="categories-lists__list">
+                        <li>
+                            <a href="#">Bakery</a>
+                        </li>
+                        <li>
+                            <a href="#">Fruit and vegetable</a>
+                        </li>
+                        <li>
+                            <a href="#">Meat and fish</a>
+                        </li>
+                        <li>
+                            <a href="#">Drinks</a>
+                        </li>
+                        <li>
+                            <a href="#">Kitchen</a>
+                        </li>
+                    </ul>
+                    <button>More categories &nbsp;&nbsp;&nbsp;&nbsp;></button>
+                </div>
+                <div class="categories-lists__banner">
+                    <p>Banner subfocus</p>
+                    <h2>Space for heading</h2>
+                    <button>Read recipes</button>
+                </div>
+                <div class="categories-lists__banner">
+                    <p>Banner subfocus</p>
+                    <h2>Space for heading</h2>
+                    <button>Read recipes</button>
+                </div>
             </div>
         </div>
     </section>
