@@ -31,6 +31,8 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -279,10 +281,15 @@ a:hover {
     margin: 0;
     line-height: 18px;
     line-height: 27px;
+    margin-bottom: 16px;
 }
 
 .categories-lists__list {
-    margin-bottom: 48px;
+    margin-bottom: 30px;
+}
+
+.categories-lists li {
+    margin-bottom: 10px;
 }
 
 .categories-lists__list a {
@@ -306,6 +313,7 @@ a:hover {
     border: none;
     border-radius: 12px;
     padding: 12.5px 28px 12.5px 16px;
+    margin-bottom: 128px;
 }
 
 .categories-lists__menu button:hover {
@@ -314,14 +322,66 @@ a:hover {
     cursor: pointer;
 }
 
-.categories-lists__banner {
-    /* display: flex; */
+.categories-lists__banner-background {
+    height: 100%;
     max-width: 419px;
     width: 100%;
     border-radius: 12px;
-    background: url(../assets/images/category-banner.svg) center center no-repeat;
+    background: url(../assets/images/category-banner.svg) right center no-repeat;
+    background-color: rgba(106, 152, 60, 0.15);
 }
 
-.categories-lists__banner:nth-child(1) {
+.categories-lists__banner-background:nth-child(1) {
     margin-right: 32px;
+}
+
+.categories-lists__banner {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding-top: 48px;
+    padding-left: 33px;
+}
+
+.categories-lists__banner p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--greenMain);
+    margin-bottom: 8px;
+}
+
+.categories-lists__banner h2 {
+    /* S3/Default */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: var(--blackMain);
+    margin-bottom: 94px;
+}
+
+.categories-lists__banner button {
+    border: 2px solid #92C064;
+    border-radius: 12px;
+    color: var(--blackMain);
+    background: transparent;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    border-radius: 12px;
+    padding: 12.5px 28px 12.5px 16px;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+
+.categories-lists__banner button:hover {
+    background-color: rgba(106, 152, 60, 0.5);
+    color: #fff;
+    transition: 0.3s;
 }
