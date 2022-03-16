@@ -484,3 +484,71 @@ a:hover {
 .farmers-card:nth-child(3) {
     margin: 0 32px;
 }
+
+
+/*FEEDBACK*/
+
+.header-elems {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-elems a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: var(--blackMain);
+}
+
+.header-elems>a span {
+    color: var(--greenMain)
+}
+
+.feedback-carousel {
+    display: flex;
+    margin-bottom: 128px;
+}
+
+.feedback-carousel img {
+    cursor: pointer;
+}
+
+.feedback-carousel__card {
+    margin: 36px 16px 0 16px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #F1F1F1;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 24px 32px 0 24px;
+}
+
+.feedback-carousel__card p:nth-child(1) {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #151515;
+    margin-bottom: 24px;
+}
+
+.feedback-carousel__card p:nth-child(2) {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #A9A9A9;
+    margin-bottom: 16px;
+}
+
+
+/* BLOG */
+
+.blog-content {
+    display: flex;
+    justify-content: center;
+}
