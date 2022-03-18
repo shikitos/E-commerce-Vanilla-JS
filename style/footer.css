@@ -1,0 +1,31 @@
+/*FOOTER*/
+
+.footer>.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--blackMain);
+    margin-bottom: 16px;
+}
+
+.footer-column a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--greenMain);
+    margin-bottom: 16px;
+}

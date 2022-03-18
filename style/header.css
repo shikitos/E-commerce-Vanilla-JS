@@ -1,0 +1,183 @@
+/* HEADER */
+
+.header-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-info__list {
+    margin: 25px 0 16px 0;
+}
+
+.header-info__link {
+    font-weight: 400;
+    color: var(--blackMain);
+}
+
+.header-info__link-green {
+    color: var(--greenMain);
+}
+
+.header-info>div {
+    display: inline-flex;
+}
+
+.header-line {
+    opacity: 15%;
+}
+
+.header-info__left>.header-info__nav>.header-info__list>.header-info__list-elem:nth-child(2) {
+    margin: 0 33px;
+}
+
+.header-info__right>.header-info__nav>.header-info__list>.header-info__list-elem:nth-child(2) {
+    margin: 0 38px;
+}
+
+
+/*  HEADER INPUT  */
+
+.header-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+}
+
+.header-input__form {
+    display: flex;
+    background: #F9F9F9;
+    border: 1px solid #D1D1D1;
+    border-radius: 12px;
+    height: 42px;
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header-input__form * {
+    border: none;
+    background: transparent;
+}
+
+.header-input__logo {
+    height: 50px;
+}
+
+.header-input__select {
+    height: 100%;
+    outline: none;
+    padding: 10px 25px 9px 16px;
+}
+
+.header-input__vl {
+    border: 1px solid #D1D1D1;
+    height: 55%;
+    margin: 0 15px 0 15px;
+}
+
+.header-input__text {
+    display: flex;
+    flex-grow: 2;
+    height: 100%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.header-input__text::placeholder {
+    padding-left: 2px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #A9A9A9;
+}
+
+.header-input__text:focus {
+    outline: none;
+}
+
+.header-input__search {
+    margin-right: 16px;
+    cursor: pointer;
+    display: flex;
+}
+
+.header-input__form .header-input__buttons img {
+    width: 24px;
+    height: 24px;
+}
+
+.header-input__buttons {
+    cursor: pointer;
+    height: 24px;
+}
+
+.header-input__buttons img:nth-last-child(2) {
+    margin-right: 40px;
+}
+
+
+/* The CSS */
+
+.nav {
+    background-color: #F9F9F9;
+    padding: 16px 0 16px 0;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.label select {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    padding-right: 2px;
+    margin: 0;
+    color: var(--blackMain);
+    border: none;
+    outline: none;
+    font-size: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(../assets/images/header-arrow.svg) 96% / 15% no-repeat;
+    background-size: 12px 12px;
+    cursor: pointer;
+}
+
+
+/* CAUTION: Internet Explorer hackery ahead */
+
+.label select::-ms-expand {
+    display: none;
+    /* Remove default arrow in Internet Explorer 10 and 11 */
+}
+
+
+/* Target Internet Explorer 9 to undo the custom arrow */
+
+@media screen and (min-width:0\0) {
+    select {
+        background: none\9;
+        padding: 5px\9;
+    }
+}
+
+.nav__list>li .label select {
+    padding: 3px 20px 3px 3px;
+}
+
+.label select:hover {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+    transition: 0.2s;
+}
