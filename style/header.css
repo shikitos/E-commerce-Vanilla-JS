@@ -73,7 +73,7 @@
 
 .header-input__vl {
     border: 1px solid #D1D1D1;
-    height: 55%;
+    height: 16px;
     margin: 0 15px 0 15px;
 }
 
@@ -150,7 +150,7 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background: url(../assets/images/header-arrow.svg) 96% / 15% no-repeat;
+    background: url(../assets/images/index/header-arrow.svg) 96% / 15% no-repeat;
     background-size: 12px 12px;
     cursor: pointer;
 }

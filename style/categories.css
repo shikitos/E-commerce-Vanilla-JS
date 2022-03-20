@@ -1,0 +1,102 @@
+.main-breadcrumps {
+    margin-top: 15px;
+}
+
+.main-breadcrumps__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #A9A9A9;
+}
+
+.main-breadcrumps__label {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #151515;
+}
+
+.main-header {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #151515;
+}
+
+.main-header__typeofview ul {
+    display: inline-flex;
+}
+
+.main-header__typeofview ul>li:nth-child(2) {
+    margin: 0 24px 0 24px;
+}
+
+.main-header__typeofview-block {
+    display: flex;
+    cursor: pointer;
+}
+
+.main-header__typeofview ul>li>p>img {
+    padding-right: 4px;
+}
+
+.main-header__typeofview ul>li>p>img path {
+    color: green;
+}
+
+.main-filter__inputs ul {
+    display: flex;
+}
+
+.main-filter__inputs ul>li {
+    margin-right: 16px;
+}
+
+.main-filter__inputs-block label[for="textFirst"] {
+    margin-right: 16px;
+}
+
+.main-filter__inputs-block {
+    display: flex;
+    align-items: center;
+}
+
+.main-filter__inputs-block input {
+    margin-right: 5px;
+}
+
+.main-filter__inputs-block label,
+.main-filter__inputs-block input {
+    cursor: pointer;
+}
+
+.main-filter__inputs ul>li:nth-child(4)>.main-filter__inputs-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-filter__inputs ul>li:nth-child(4)>.main-filter__inputs-block select {
+    min-width: 70px;
+}
+
+.main-filter__inputs-block {
+    padding: 9px 16px;
+    background: #F9F9F9;
+    border: 1px solid #D1D1D1;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
