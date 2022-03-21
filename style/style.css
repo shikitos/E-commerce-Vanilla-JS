@@ -197,6 +197,7 @@ a:hover {
     border-radius: 12px;
     padding: 0 8px 0 8px;
     display: inline-block;
+    height: 100%;
 }
 
 
@@ -218,4 +219,17 @@ a:hover {
 
 .header-elems>a span {
     color: var(--greenMain)
+}
+
+
+/* filter  */
+
+.filter-heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--blackMain);
+    margin-bottom: 16px;
 }
