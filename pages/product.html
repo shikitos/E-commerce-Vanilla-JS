@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style/font.css">
-    <link rel="stylesheet" href="style/index.css">
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/header.css">
-    <link rel="stylesheet" href="style/footer.css">
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../style/font.css">
+    <link rel="stylesheet" href="../style/product.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/header.css">
+    <link rel="stylesheet" href="../style/footer.css">
     <title>Freshnecom</title>
 </head>
 
@@ -54,7 +54,7 @@
             <hr class="header-line">
             <div class="header-input">
                 <div class="header-input__logo">
-                    <a href="./index.html">
+                    <a href="../index.html">
                         <svg width="177" height="50" viewBox="0 0 177 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M3.87168 26.7609H10.4051V23.2391H3.87168V19.5217H11.857V16H0V33.6087H3.87168V26.7609Z" fill="#151515"/>
                             <path d="M13.1832 27.0054V33.6087H16.8129V27.0054C16.8129 24.9755 18.4342 23.337 20.4426 23.337V20.0109H19.9586C15.9418 20.0109 13.1832 23.1413 13.1832 27.0054Z" fill="#151515"/>
@@ -72,19 +72,19 @@
                     </a>
                 </div>
                 <div class="header-input__form">
-                    <label for="categories" class="label">
-                        <select name="categories" id="categories" class="header-input__select">
-                            <option value="0">All Categories</option>
-                            <option value="1">Bakery</option>
-                            <option value="2">Fruit and vegetable</option>
-                            <option value="3">Meat and fish</option>
-                            <option value="4">Drinks</option>
-                            <option value="5">Kitchen</option>
-                            <option value="6">Special nutrition</option>
-                            <option value="7">Baby</option>
-                            <option value="8">Pharmacy</option>
-                        </select>
-                    </label>
+                    <label for="" class="label">
+                            <select name="categories" id="categories" class="header-input__select">
+                                <option value="0">All Categories</option>
+                                <option value="1">Bakery</option>
+                                <option value="2">Fruit and vegetable</option>
+                                <option value="3">Meat and fish</option>
+                                <option value="4">Drinks</option>
+                                <option value="5">Kitchen</option>
+                                <option value="6">Special nutrition</option>
+                                <option value="7">Baby</option>
+                                <option value="8">Pharmacy</option>
+                            </select>
+                        </label>
                     <div class="header-input__vl"></div>
                     <input type="text" placeholder="Search Products, categories ..." class="header-input__text">
                     <button class="header-input__search">
@@ -95,8 +95,8 @@
                     </button>
                 </div>
                 <div class="header-input__buttons">
-                    <img src="./assets/images/index/header-user.svg " alt="#" class="header-input__user">
-                    <img src="./assets/images/index/header-cart.svg " alt="#" class="header-input__cart">
+                    <img src="../assets/images/index/header-user.svg " alt="User icon" class="header-input__user">
+                    <img src="../assets/images/index/header-cart.svg " alt="Cart icon" class="header-input__cart">
                 </div>
             </div>
         </div>
@@ -149,15 +149,15 @@
                         <label for="baby" class="label">
                             <select name="baby" id="baby">
                                 <option value="0">Baby</option>
-                                </select>
+                            </select>
                         </label>
                     </li>
                     <li>
                         <label for="pharmacy" class="label">
-                            <select name="pharmacy" id="pharmacy">
-                                <option value="0">Pharmacy</option>
-                            </select>
-                        </label>
+                                <select name="pharmacy" id="pharmacy">
+                                    <option value="0">Pharmacy</option>
+                                </select>
+                            </label>
                     </li>
                 </ul>
             </div>
@@ -166,274 +166,234 @@
 
     <!-- END OF HEADER AND NAV SECTION -->
 
-    <section class="categories">
+    <section class="main">
         <div class="container">
-            <div class="categories-lists">
-                <div class="categories-lists__menu menu-list">
-                    <h2>Category menu</h2>
-                    <ul class="categories-lists__list menu-ul">
-                        <li>
-                            <a href="./pages/category.html" data-name="Bakery">Bakery</a>
-                        </li>
-                        <li>
-                            <a href="./pages/category.html" data-name="Fruit and vegetable">Fruit and vegetable</a>
-                        </li>
-                        <li>
-                            <a href="./pages/category.html" data-name="Meat and fish">Meat and fish</a>
-                        </li>
-                        <li>
-                            <a href="./pages/category.html" data-name="Drinks">Drinks</a>
-                        </li>
-                        <li>
-                            <a href="./pages/category.html" data-name="Kitchen">Kitchen</a>
-                        </li>
-                    </ul>
-                    <button>More categories &nbsp;&nbsp;&nbsp;&nbsp;></button>
-                </div>
-                <div class="categories-lists__banner-background banner-background">
-                    <div class="categories-lists__banner banner-content">
-                        <p>Banner subfocus</p>
-                        <h2>Space for heading</h2>
-                        <button>Read recipes &nbsp;&nbsp;&nbsp;&nbsp;></button>
-                    </div>
-                </div>
-                <div class="categories-lists__banner-background banner-background">
-                    <div class="categories-lists__banner banner-content">
-                        <p>Banner subfocus</p>
-                        <h2>Space for heading</h2>
-                        <button>Read recipes &nbsp;&nbsp;&nbsp;&nbsp;></button>
-                    </div>
-                </div>
+            <div class="main-breadcrumps">
+                <p class="main-breadcrumps__text breadcrumps-string">
+                    <a href="../index.html">Homepage</a> / <a href="../pages/category.html">Fruits and vegetables</a> / <span class="main-breadcrumps__label breadcrumps-current" data-item="Carrots from Tomissy Farm">Carrots from Tomissy Farm</span>
+                </p>
             </div>
-        </div>
-    </section>
+            <div class="main-content">
+                <div class="main-content__img">
+                    <div class="main-content__img-item">
+                        <img src="" alt="Item image">
+                    </div>
+                    <div class="main-content__img-item">
+                        <img src="" alt="Item image">
+                    </div>
+                    <div class="main-content__img-item">
+                        <img src="" alt="Item image">
+                    </div>
+                </div>
+                <div class="main-content__info">
+                    <div class="main-content__info-data">
+                        <h1 class="main-content__info-heading" data-item="Carrots from Tomissy Farm">Carrots from Tomissy Farm</h1>
+                        <div class="main-content__info-rating">
+                            <div class="main-content__info-stars">
 
-    <section class="products">
-        <div class="container">
-            <div class="products-bar">
-                <div class="products-menu menu-list">
-                    <h2>Best selling products</h2>
-                    <ul class="products-menu__list menu-ul">
-                        <li>
-                            <a href="./pages/category.html" data-name="Kitchen">Kitchen</a>
-                        </li>
-                        <li>
-                            <a href="./pages/category.html" data-name="Bakery">Meat and fish</a>
-                        </li>
-                        <li>
-                            <a href="./pages/category.html" data-name="Special nutrition">Special nutrition</a>
-                        </li>
-                        <li>
-                            <a href="./pages/category.html" data-name="Pharmacy">Pharmacy</a>
-                        </li>
-                        <li>
-                            <a href="./pages/category.html" data-name="Baby">Baby</a>
-                        </li>
-                    </ul>
-                    <button>More products &nbsp;&nbsp;&nbsp;&nbsp;></button>
-                </div>
-                <div class="products-card item-card">
-                    <div class="products-card__content item-content">
-                        <img src=" " alt=" ">
-                        <h4>Product Title</h4>
-                        <p>Space for a small product description </p>
-                        <div class="products-card__content-price item-data">
-                            <p>1.48 USD</p>
-                            <button>Buy now</button>
+                            </div>
+                            <div class="main-content__info-reviews">
+                                <p>(1 customer review)</p>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="products-card item-card">
-                    <div class="products-card__content item-content">
-                        <img src=" " alt=" ">
-                        <h4>Product Title</h4>
-                        <p>Space for a small product description </p>
-                        <div class="products-card__content-price item-data">
-                            <p>1.48 USD</p>
-                            <button>Buy now</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="products-card item-card">
-                    <div class="products-card__content item-content">
-                        <img src=" " alt=" ">
-                        <h4>Product Title</h4>
-                        <p>Space for a small product description </p>
-                        <div class="products-card__content-price item-data">
-                            <p>1.48 USD</p>
-                            <button>Buy now</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="farmers">
-        <div class="container">
-            <div class="farmers-bar">
-                <div class="farmers-menu menu-list">
-                    <h2>Best selling products</h2>
-                    <ul class="farmers-menu__list menu-ul">
-                        <li>
-                            <a href="./pages/category.html" data-name="Kitchen">Kitchen</a>
-                        </li>
-                        <li>
-                            <a href="./pages/category.html" data-name="Meat and fish">Meat and fish</a>
-                        </li>
-                        <li>
-                            <a href="./pages/category.html" data-name="Special nutrition">Special nutrition</a>
-                        </li>
-                        <li>
-                            <a href="./pages/category.html" data-name="Pharmacy">Pharmacy</a>
-                        </li>
-                        <li>
-                            <a href="./pages/category.html" data-name="Baby">Baby</a>
-                        </li>
-                    </ul>
-                    <button>More products &nbsp;&nbsp;&nbsp;&nbsp;></button>
-                </div>
-                <div class="farmers-card item-card">
-                    <div class="farmers-card__content item-content">
-                        <img src=" " alt=" ">
-                        <h5></h5>
-                        <h4>Product Title</h4>
-                        <p>Space for a small product description </p>
-                        <div class="farmers-card__content-price item-data">
-                            <p>1.48 USD</p>
-                            <button>Buy now</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="farmers-card item-card">
-                    <div class="farmers-card__content item-content">
-                        <img src=" " alt=" ">
-                        <h5></h5>
-                        <h4>Product Title</h4>
-                        <p>Space for a small product description </p>
-                        <div class="farmers-card__content-price item-data">
-                            <p>1.48 USD</p>
-                            <button>Buy now</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="farmers-card item-card">
-                    <div class="farmers-card__content item-content">
-                        <img src=" " alt=" ">
-                        <h5></h5>
-                        <h4>Product Title</h4>
-                        <p>Space for a small product description </p>
-                        <div class="farmers-card__content-price item-data">
-                            <p>1.48 USD</p>
-                            <button>Buy now</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="feedback">
-        <div class="container">
-            <div class="feedback-header header-elems">
-                <h2>Our customers says</h2>
-                <a href=" ">Button &nbsp;&nbsp;&nbsp;&nbsp;<span>></span></a>
-            </div>
-
-        </div>
-        <div class="feedback-carousel">
-            <img src="/assets/images/index/feedback-left.svg" alt="Arrow left">
-            <div class="feedback-carousel__card ">
-                <p>“ This is a super space for your customers quote. Don’t worry it works smooth as pie. You will get all what you need by writing a text here “</p>
-                <p>Name and Surname</p>
-                <img src=" " alt=" ">
-            </div>
-            <div class="feedback-carousel__card ">
-                <p>“ This is a super space for your customers quote. Don’t worry it works smooth as pie. You will get all what you need by writing a text here “</p>
-                <p>Name and Surname</p>
-                <img src=" " alt=" ">
-            </div>
-            <div class="feedback-carousel__card ">
-                <p>“ This is a super space for your customers quote. Don’t worry it works smooth as pie. You will get all what you need by writing a text here “</p>
-                <p>Name and Surname</p>
-                <img src=" " alt=" ">
-            </div>
-            <div class="feedback-carousel__card ">
-                <p>“ This is a super space for your customers quote. Don’t worry it works smooth as pie. You will get all what you need by writing a text here “</p>
-                <p>Name and Surname</p>
-                <img src=" " alt=" ">
-            </div>
-            <div class="feedback-carousel__card ">
-                <p>“ This is a super space for your customers quote. Don’t worry it works smooth as pie. You will get all what you need by writing a text here “</p>
-                <p>Name and Surname</p>
-                <img src=" " alt=" ">
-            </div>
-            <img src="./assets/images/index/feedback-right.svg" alt="Arrow right">
-        </div>
-    </section>
-
-    <section class="blog">
-        <div class="container">
-            <div class="blog-header header-elems">
-                <h2>Read our Blog posts</h2>
-                <a href="#">Go to Blog &nbsp;&nbsp;&nbsp;&nbsp;<span>></span></a>
-            </div>
-            <div class="blog-content">
-                <div class="blog-content__main">
-                    <div class="blog-content__main-label">
-                        <p>
-                            <span class="green-alert">
-                                Dinner tips
-                            </span>
+                        <p class="main-content__info-description">
+                            Carrots from Tomissy Farm are one of the best on the market. Tomisso and his family are giving a full love to his Bio products. Tomisso’s carrots are growing on the fields naturally.
                         </p>
-                    </div>
-                    <div class="blog-content__description">
-                        <h4>Our chef tips for a great and tasty dinner ready in 20 minutes</h4>
-                        <div class="blog-content__description-data">
-                            <img src="" alt="">
-                            <p class="blog-content__decription-author">Author</p>
-                            <p>17.02.2022</p>
+                        <div class="main-content__info-params">
+                            <div class="main-content__params-left">
+                                <div class="main-content__params-row">
+                                    <h5>SKU:</h5>
+                                    <p>76645</p>
+                                </div>
+                                <div class="main-content__params-row">
+                                    <h5>Category</h5>
+                                    <p>Vegetables</p>
+                                </div>
+                                <div class="main-content__params-row">
+                                    <h5>Stock:</h5>
+                                    <p>In Stock</p>
+                                </div>
+                                <div class="main-content__params-row">
+                                    <h5>Farm:</h5>
+                                    <p>Grocery Tarm Fields</p>
+                                </div>
+                            </div>
+                            <div class="main-content__info__params-right">
+                                <div class="main-content__params-row">
+                                    <h5>Freshness:</h5>
+                                    <p>1 days old</p>
+                                </div>
+                                <div class="main-content__params-row">
+                                    <h5>Buy by:</h5>
+                                    <p>pcs, kgs, box, pack</p>
+                                </div>
+                                <div class="main-content__params-row">
+                                    <h5>Delivery:</h5>
+                                    <p>in 2 days</p>
+                                </div>
+                                <div class="main-content__params-row">
+                                    <h5>Delivery area:</h5>
+                                    <p>Czech republic</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-content__info-buy">
+                            <div class="main-content__info-price">
+                                <p>36.23 USD</p>
+                            </div>
+                            <div class="main-content__info-buttons">
+                                <div class="main-content__info-select">
+                                    <input type="number" placeholder="1" class="main-content__info-input">
+                                    <div class="main-content__info-vl"></div>
+                                    <!-- <label for="quantity"> -->
+                                    <select name="quantity" id="quantity" class="main-content__info-item">
+                                            <option value="0">Pcs</option>
+                                            <option value="1">Kgs</option>
+                                            <option value="2">Box</option>
+                                            <option value="3">Pack</option>
+                                        </select>
+                                    <!-- </label> -->
+                                </div>
+                                <button class="main-content__info-button button-apply">+ Add to cart</button>
+                            </div>
+                        </div>
+                        <div class="main-content__info-action">
+                            <button class="main-content__info-wish">
+                                <img src="../assets/images/product/main-wish-list.svg" alt="Add to wish list"> Add to my wish list 
+                            </button>
+                            <button class="main-content__info-compare">
+                                <img src="../assets/images/product/main-compare.svg" alt="Compare"> Compare 
+                            </button>
                         </div>
                     </div>
-                </div>
-                <div class="blog-content__secondary">
-                    <img src="" alt="">
-                    <p>
-                        <span class="green-alert">
-                            Vegetable
-                        </span>
-                    </p>
-                    <h5>Which vegetable your family will love and want`s eat each day</h5>
-                    <p class="blog-content_secondary-author">Author</p>
-                    <p>12.02.2022</p>
-                </div>
-                <div class="blog-content__row">
-                    <div class="blog-content__row-first">
-                        <div class="blog-content__row-left">
-                            <h5>Salat is kinda good start to your morning routines</h5>
-                            <p class="blog-content__row-author">Author</p>
-                            <p>14.01.2022</p>
+                    <div class="main-content__info-interaction">
+                        <div class="main-content__info-tabs">
+                            <button class="active" data-tab="description">
+                                Description
+                            </button>
+                            <button data-tab="reviews">
+                                Reviews <span class="green-alert">18</span>
+                            </button>
+                            <button data-tab="question">
+                                Questions <span class="green-alert">4</span>
+                            </button>
                         </div>
-                        <img src="./assets/images/index/blog-row-salat.jpg" alt="">
-                    </div>
-                    <div class="blog-content__row-second">
-                        <div class="blog-content__row-left">
-                            <h5>Our chef tips for a great and healthy breakfast</h5>
-                            <p class="blog-content__row-author">Author</p>
-                            <p>25.01.2022</p>
+                        <div class="main-content__info-tabcontent" data-tab="description">
+                            <div class="main-content__info-block">
+                                <h5>Origins</h5>
+                                <p>We work hard to ensure that the fruit and vegetables we sell are fresh and high in quality. If we don’t grow them ourselves, we source them from carefully chosen suppliers, preferring to buy locally whenever possible.
+                                </p>
+                            </div>
+                            <div class="main-content__info-block">
+                                <h5>How to cook</h5>
+                                <p>From roasts, salads and soups to casseroles and cakes, Carrots will lend sweetness, texture and colour to an enormous number of recipes.</p>
+                            </div>
+                            <div class="main-content__info-block">
+                                <div class="main-content__info-tabheading">
+                                    <p>Vitamins</p>
+                                    <p>Quantity</p>
+                                    <p>% DV</p>
+                                </div>
+                                <div class="main-content__info-tabrow">
+                                    <p>Vitamin A equiv.</p>
+                                    <p>735 μg</p>
+                                    <p>104 %</p>
+                                </div>
+                                <div class="main-content__info-tabrow">
+                                    <p>Thiamine (B1)</p>
+                                    <p>0.066 mg</p>
+                                    <p>6 %</p>
+                                </div>
+                                <div class="main-content__info-tabrow">
+                                    <p>Niacin (B3)</p>
+                                    <p>0.983 mg</p>
+                                    <p>7 %</p>
+                                </div>
+                                <div class="main-content__info-tabrow">
+                                    <p>Folate (Bg)</p>
+                                    <p>19 μg</p>
+                                    <p>5 %</p>
+                                </div>
+                                <div class="main-content__info-tabrow">
+                                    <p>Vitamin C</p>
+                                    <p>5.9 mg</p>
+                                    <p>7 %</p>
+                                </div>
+                                <div class="main-content__info-tabrow">
+                                    <p>Vitamin E</p>
+                                    <p>0.66 mg</p>
+                                    <p>13 %</p>
+                                </div>
+                                <div class="main-content__info-tabrow">
+                                    <p>Vitamin K</p>
+                                    <p>13.2</p>
+                                    <p>4 %</p>
+                                </div>
+                            </div>
                         </div>
-                        <img src="./assets/images/index/blog-row-chef.jpg" alt="">
-                    </div>
-                    <div class="blog-content__row-third">
-                        <div class="blog-content__row-left">
-                            <h5>Prepare a simple and delicious breads</h5>
-                            <p class="blog-content__row-author">Author</p>
-                            <p>15.02.2022</p>
-                        </div>
-                        <img src="./assets/images/index/blog-row-breads.jpg" alt="">
-                    </div>
-                </div>
+                        <div class="main-content__info-tabcontent" data-tab="reviews">
 
+                        </div>
+                        <div class="main-content__info-tabcontent" data-tab="question">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="related">
+        <div class="container">
+            <div class="related-header header-elems">
+                <h2>Related products</h2>
+                <a href=" ">More products &nbsp;&nbsp;&nbsp;&nbsp;<span>></span></a>
+            </div>
+            <div class="related-items">
+                <div class="related-items__card item-card">
+                    <div class="related-items__card-content item-content">
+                        <img src=" " alt=" ">
+                        <h4>Product Title</h4>
+                        <p>Space for a small product description </p>
+                        <div class="related-items__card-price item-data">
+                            <p>1.48 USD</p>
+                            <button>Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="related-card item-card">
+                    <div class="related-items__card-content item-content">
+                        <img src=" " alt=" ">
+                        <h4>Product Title</h4>
+                        <p>Space for a small product description </p>
+                        <div class="related-items__card-price item-data">
+                            <p>1.48 USD</p>
+                            <button>Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="related-card item-card">
+                    <div class="related-items__card-content item-content">
+                        <img src=" " alt=" ">
+                        <h4>Product Title</h4>
+                        <p>Space for a small product description </p>
+                        <div class="related-items__card-price item-data">
+                            <p>1.48 USD</p>
+                            <button>Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="related-card item-card">
+                    <div class="related-items__card-content item-content">
+                        <img src=" " alt=" ">
+                        <h4>Product Title</h4>
+                        <p>Space for a small product description </p>
+                        <div class="related-items__card-price item-data">
+                            <p>1.48 USD</p>
+                            <button>Buy now</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -473,9 +433,6 @@
     </footer>
 
     <!-- END OF FOOTER SECTION -->
-
-
-    <script src="script/index.js " async></script>
 
 </body>
 

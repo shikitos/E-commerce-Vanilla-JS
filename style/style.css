@@ -56,6 +56,18 @@ a:hover {
     background: var(--greenMain);
 }
 
+.button-apply {
+    color: #FFFFFF;
+    background: #6A983C;
+    border: 2px solid #46760A;
+    border-radius: 12px;
+    margin-right: 34px;
+}
+
+.button-apply:hover {
+    background-color: #46760A;
+}
+
 
 /* menu  */
 
@@ -206,6 +218,7 @@ a:hover {
 .header-elems {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header-elems a {
@@ -232,4 +245,26 @@ a:hover {
     line-height: 27px;
     color: var(--blackMain);
     margin-bottom: 16px;
+}
+
+.breadcrumps-string {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #A9A9A9;
+}
+
+.breadcrumps-string a {
+    color: #A9A9A9;
+}
+
+.breadcrumps-current {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #151515;
 }

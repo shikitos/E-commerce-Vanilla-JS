@@ -1,0 +1,309 @@
+.main-breadcrumps {
+    margin: 16px 0 18px 0;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main-content__img,
+.main-content__info {
+    flex-basis: 48%;
+}
+
+.main-content__img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main-content__img-item {
+    flex-basis: 31%;
+}
+
+.main-content__info-heading {
+    margin-bottom: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 140%;
+    color: #151515;
+}
+
+.main-content__info-reviews {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #A9A9A9;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.main-content__info-reviews p:hover {
+    color: #8f8f8f;
+}
+
+.main-content__info-description {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    color: #151515;
+    margin: 40px 0;
+}
+
+.main-content__info-params {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.main-content__info-params>div {
+    flex-basis: 47%;
+}
+
+.main-content__params-row {
+    align-items: center;
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.main-content__params-row h5 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #A9A9A9;
+}
+
+.main-content__params-row p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #151515;
+}
+
+.main-content__params-row h5,
+.main-content__params-row p {
+    flex: 50%;
+}
+
+.main-content__info-buy {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #F5F5F5;
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin-bottom: 24px;
+}
+
+.main-content__info-price {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    color: #6A983C;
+}
+
+.main-content__info-buttons {
+    display: flex;
+}
+
+.main-content__info-select {
+    display: flex;
+    align-items: center;
+    background: #F9F9F9;
+    border: 1px solid #D1D1D1;
+    border-radius: 12px;
+    padding: 14px 16px;
+}
+
+.main-content__info-input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    max-width: 50px;
+    width: 100%;
+    padding-left: 13px;
+}
+
+.main-content__info-input::placeholder {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #A9A9A9;
+}
+
+.main-content__info-item {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #151515;
+}
+
+.main-content__info-vl {
+    border: 1px solid #D1D1D1;
+    height: 16px;
+    margin: 0 15px 0 15px;
+}
+
+.main-content__info-button {
+    margin-left: 24px;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 12px 16px;
+}
+
+.main-content__info-action {
+    display: flex;
+    margin-bottom: 62px;
+}
+
+.main-content__info-action button {
+    margin-right: 16px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    padding: 6px 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #151515;
+    display: flex;
+    align-items: center;
+}
+
+.main-content__info-action button>img {
+    margin-right: 6px;
+}
+
+.main-content__info-action button:hover {
+    color: #a9a9a9;
+}
+
+.main-content__info-tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 48px;
+}
+
+.main-content__info-tabs button {
+    cursor: pointer;
+    flex: 33%;
+    padding: 16px;
+    border: none;
+    background: transparent;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #151515;
+    border-bottom: 2px solid #F5F5F5;
+    text-align: left;
+}
+
+.main-content__info-tabs button.active {
+    border-bottom: 2px solid #6A983C;
+}
+
+.main-content__info-tabs button:hover {
+    background: #F5F5F5;
+    border-bottom: 2px solid #6A983C;
+}
+
+.main-content__info-block h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #151515;
+    margin-bottom: 8px;
+}
+
+.main-content__info-block>p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #151515;
+    margin-bottom: 32px;
+}
+
+.main-content__info-tabheading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #151515;
+    border-bottom: 2px solid #F9F9F9;
+}
+
+.main-content__info-tabrow {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #575757;
+}
+
+.main-content__info-tabheading,
+.main-content__info-tabrow {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-content__info-tabheading>p,
+.main-content__info-tabrow>p {
+    flex: 33%;
+    padding: 0 25px;
+}
+
+.main-content__info-tabheading>p:nth-child(1),
+.main-content__info-tabrow>p:nth-child(1) {
+    padding-left: 0;
+}
+
+.related {
+    margin-top: 64px;
+}
+
+.related-items {
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 0 64px 0;
+}
